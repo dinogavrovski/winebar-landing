@@ -19,10 +19,10 @@ const navLinks = [
 
 const cocktailLists = [
     {
-        name: "Chapel Hill Shiraz",
-        country: "AU",
-        detail: "Battle",
-        price: "$10",
+        name: "Tussock Jumper Moscato",
+        country: "ES",
+        detail: "Sweet",
+        price: "1400 МКД",
     },
     {
         name: "Caten Malbee",
