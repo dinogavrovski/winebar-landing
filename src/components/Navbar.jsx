@@ -17,12 +17,12 @@ const Navbar = () => {
       { backgroundColor: "transparent" },
       {
         backgroundColor: "#00000050",
-        backgroundFilter: "blur(40px)",
+        backdropFilter: "blur(10px)",
         duration: 1,
         ease: "power2.out",
       }
     );
-  }, []);
+  });
   return (
     <nav>
       <div>

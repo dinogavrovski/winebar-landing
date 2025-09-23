@@ -51,7 +51,7 @@ const Hero = () => {
       scrollTrigger: {
         trigger: "video",
         start: startValue,
-        end: "+=300%",
+        end: endValue,
         scrub: true,
         pin: true,
       },
@@ -98,11 +98,21 @@ const Hero = () => {
       </section>
       <div className="video absolute inset-0">
         <video
-          src="/videos/output.mp4"
+          src="/videos/output22.mp4"
           ref={videoRef}
           muted
           playsInline
           preload="auto"
+          style={{
+            WebkitMaskImage:
+              "linear-gradient(to bottom, transparent, black 10%, black 30%)",
+            WebkitMaskRepeat: "no-repeat",
+            WebkitMaskSize: "100% 100%",
+            maskImage:
+              "linear-gradient(to bottom, transparent 0%, black 10%, black 100%)",
+            maskRepeat: "no-repeat",
+            maskSize: "100% 100%",
+          }}
         />
       </div>
     </>
