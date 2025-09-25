@@ -53,7 +53,7 @@ const About = () => {
   return (
     <div id="about">
       <div className="mb-16 md:px-0 px-5">
-        <div className="content">
+        <div className="content overflow-hidden">
           <div className="md:col-span-8">
             <p className="badge">Best Wines</p>
             <h2>

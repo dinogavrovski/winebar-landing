@@ -43,7 +43,11 @@ const Menu = () => {
     );
   }, [currentIndex]);
   return (
-    <section id="menu" aria-labelledby="menu-heading">
+    <section
+      className="overflow-hidden noisy my-0"
+      id="menu"
+      aria-labelledby="menu-heading"
+    >
       <img
         src="/images/slider-left-leaf.png"
         alt="m-left-leaf"
@@ -59,7 +63,11 @@ const Menu = () => {
         Wine Menu
       </h2>
 
-      <nav className="cocktail-tabs" aria-label="Cocktail Navigation">
+      <nav
+        className="cocktail-tabs"
+        aria-label="Cocktail Navigation"
+        style={{ backdropFilter: "none", backgroundColor: "transparent" }}
+      >
         {sliderLists.map((item, index) => {
           const isActive = index === currentIndex;
           return (
@@ -110,7 +118,7 @@ const Menu = () => {
 
         <div className="recipe">
           <div ref={contentRef} className="info">
-            <p>Recipe for:</p>
+            <p>Info for:</p>
             <p id="title">{currentCocktail.name}</p>
           </div>
 

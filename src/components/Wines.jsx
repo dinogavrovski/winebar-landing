@@ -8,7 +8,9 @@ const Wines = () => {
     const parralaxTimeline = gsap.timeline({
       scrollTrigger: {
         trigger: "#cocktails",
-        start: "top 30%",
+        start: "top 80%",
+        end: "bottom top",
+        scrub: true,
       },
     });
 

@@ -46,14 +46,14 @@ body {
 @utility radial-gradient {
     background: radial-gradient(
             circle at center,
-            #434343 0%,
-            #000 50%,
+            rgba(67, 67, 67, 0.3) 0%,   /* 50% opacity gray */
+    rgba(0, 0, 0, 0.5) 50%, 
             transparent 100%
     );
 }
 
 @utility masked-img {
-    mask-image: url("/images/mask-img.png");
+    mask-image: url("/images/mask-img2.png");
     mask-repeat: no-repeat;
     mask-position: center;
     mask-size: 50%;
@@ -89,10 +89,7 @@ body {
     }
     .noisy::after {
         content: "";
-        position: absolute;
-        inset: 0;
-        background: inherit;
-        pointer-events: none;
+        @apply absolute inset-0 bg-[url("/images/noise3.png")] bg-repeat opacity-30 pointer-events-none;
     }
 
     #hero {
@@ -248,7 +245,7 @@ body {
     }
 
     #art {
-        @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
+        @apply flex-center flex-col min-h-dvh p-5 mt-20 relative;
 
         h2 {
             @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-rozha text-center text-[#505050] mb-8;

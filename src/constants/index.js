@@ -106,62 +106,55 @@ const storeInfo = {
 };
 
 const openingHours = [
-    { day: "Mon–Thu", time: "11:00am – 12am" },
-    { day: "Fri", time: "11:00am – 2am" },
-    { day: "Sat", time: "9:00am – 2am" },
-    { day: "Sun", time: "9:00am – 1am" },
+    { day: "Mon-Sat", time: "8:00am – 12am" },
+    { day: "Sun", time: "9:00am – 12am" },
 ];
 
 const socials = [
     {
         name: "Instagram",
         icon: "/images/insta.png",
-        url: "#",
-    },
-    {
-        name: "X (Twitter)",
-        icon: "/images/x.png",
-        url: "#",
+        url: "https://www.instagram.com/oeno_wine_bar/",
     },
     {
         name: "Facebook",
         icon: "/images/fb.png",
-        url: "#",
+        url: "https://www.facebook.com/people/Oeno-Wine-Bar-Deli/100063455534104/#",
     },
 ];
 
 const sliderLists = [
     {
         id: 1,
-        name: "Classic Mojito",
-        image: "/images/drink1.png",
-        title: "Simple Ingredients, Bold Flavor",
+        name: "Sensuale Moscato",
+        image: "/images/sensuale.png",
+        title: "Balanced, Fresh, Full",
         description:
-            "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+            "Sweet, full-bodied, and harmonious, with a light effervescence that complements its intense fruit flavors",
     },
     {
         id: 2,
-        name: "Raspberry Mojito",
-        image: "/images/drink2.png",
-        title: "A Zesty Classic That Never Fails",
+        name: "Lazar Temjanika",
+        image: "/images/lazar.png",
+        title: "A Fruity Classic That Never Fails",
         description:
-            "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+            "Fruity driven, Medium-high acidity and medium body",
     },
     {
         id: 3,
-        name: "Violet Breeze",
-        image: "/images/drink3.png",
-        title: "Simple Ingredients, Bold Flavor",
+        name: "T.J Moscato",
+        image: "/images/moscato.png",
+        title: "Bright, Sweet, Pearly",
         description:
-            "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+            "pronounced fruit and floral reminiscent of mandarin peel. Sweet lusciousness and refreshing airy bubbles.",
     },
     {
         id: 4,
-        name: "Curacao Mojito",
-        image: "/images/drink4.png",
-        title: "Crafted With Care, Poured With Love",
+        name: "Sun Goddess Pino Grigio",
+        image: "/images/sung.png",
+        title: "Full-bodied, Rich, Pleasantly Sweet",
         description:
-            "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+            "Intense and complex bouquet, featuring hints of peach, melon, and blackberries",
     },
 ];
 

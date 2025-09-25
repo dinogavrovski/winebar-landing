@@ -34,7 +34,7 @@ const Art = () => {
       .to("#masked-content", { opacity: 1, duration: 1, ease: "power1.out" });
   }, []);
   return (
-    <div id="art">
+    <div id="art" className="noisy">
       <div className="container mx-auto h-full pt-20">
         <h2 className="will-fade">The Art</h2>
         <div className="content">
