@@ -17,7 +17,7 @@ const navLinks = [
     },
 ];
 
-const cocktailLists = [
+const winesList = [
     {
         name: "Tussock Jumper Moscato",
         country: "ES",
@@ -44,7 +44,7 @@ const cocktailLists = [
     },
 ];
 
-const mockTailLists = [
+const cocktailList = [
     {
         name: "Amaretto Sour",
         detail: "Amaretto, lemon juice, simple syrup.",
@@ -67,43 +67,19 @@ const mockTailLists = [
     },
 ];
 
-const profileLists = [
-    {
-        imgPath: "/images/profile1.png",
-    },
-    {
-        imgPath: "/images/profile2.png",
-    },
-    {
-        imgPath: "/images/profile3.png",
-    },
-    {
-        imgPath: "/images/profile4.png",
-    },
-];
-
 const featureLists = [
-    "Perfectly balanced blends",
-    "Garnished to perfection",
-    "Ice-cold every time",
-    "Expertly shaken & stirred",
+    "Poured to perfection",
+    "Crafted from the vine",
+    "Rich aromas, bold flavors",
+    "Elegance in every glass"
 ];
 
 const goodLists = [
-    "Handpicked ingredients",
-    "Signature techniques",
-    "Bartending artistry in action",
-    "Freshly muddled flavors",
+    "Savor the subtle notes",
+    "Uncork pure indulgence",
+    "From vineyard to table",
+    "Timeless taste, redefined"
 ];
-
-const storeInfo = {
-    heading: "Where to Find Us",
-    address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
-    contact: {
-        phone: "(555) 987-6543",
-        email: "hello@jsmcocktail.com",
-    },
-};
 
 const openingHours = [
     { day: "Mon-Sat", time: "8:00am – 12am" },
@@ -160,13 +136,11 @@ const sliderLists = [
 
 export {
     navLinks,
-    cocktailLists,
-    mockTailLists,
-    profileLists,
+    winesList,
+    cocktailList,
     featureLists,
     goodLists,
     openingHours,
-    storeInfo,
     socials,
     sliderLists,
 };
