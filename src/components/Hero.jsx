@@ -71,7 +71,7 @@ const Hero = () => {
         <img
           src="/images/cork-left-scaled.png"
           alt="left-leaf"
-          className="left-leaf w-[500px] h-[500px]"
+          className="left-leaf"
         />
         <img
           src="/images/cork-right-scaled.png"
@@ -80,7 +80,7 @@ const Hero = () => {
         />
         <div className="body">
           <div className="content">
-            <div className="space-y-5 hidden md:block">
+            <div className="space-y-5">
               <p>Cool. Crisp. Classic</p>
               <p className="subtitle">
                 Sip the spirit <br /> of Summer

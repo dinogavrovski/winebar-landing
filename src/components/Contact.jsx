@@ -51,15 +51,11 @@ const Contact = () => {
   return (
     <footer id="contact" className="mt-0 noisy">
       <img
-        src="images/footer-right-leaf.png"
+        src="images/grapeleaf-right.png"
         alt="f-right-leaf"
         id="f-right-leaf"
       />
-      <img
-        src="images/footer-left-leaf.png"
-        alt="f-left-leaf"
-        id="f-left-leaf"
-      />
+      <img src="images/grapeleaf-left.png" alt="f-left-leaf" id="f-left-leaf" />
       <div className="content">
         <div>
           <h2>Where to Find Us</h2>
