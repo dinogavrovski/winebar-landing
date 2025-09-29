@@ -103,7 +103,7 @@ const sliderLists = [
     {
         id: 1,
         name: "Sensuale Moscato",
-        image: "/images/sensuale.png",
+        image: "images/sensuale.png",
         title: "Balanced, Fresh, Full",
         description:
             "Sweet, full-bodied, and harmonious, with a light effervescence that complements its intense fruit flavors",
@@ -111,7 +111,7 @@ const sliderLists = [
     {
         id: 2,
         name: "Lazar Temjanika",
-        image: "/images/lazar.png",
+        image: "images/lazar.png",
         title: "A Fruity Classic That Never Fails",
         description:
             "Fruity driven, Medium-high acidity and medium body",
@@ -119,7 +119,7 @@ const sliderLists = [
     {
         id: 3,
         name: "T.J Moscato",
-        image: "/images/moscato.png",
+        image: "images/moscato.png",
         title: "Bright, Sweet, Pearly",
         description:
             "pronounced fruit and floral reminiscent of mandarin peel. Sweet lusciousness and refreshing airy bubbles.",
@@ -127,7 +127,7 @@ const sliderLists = [
     {
         id: 4,
         name: "Sun Goddess Pino Grigio",
-        image: "/images/sung.png",
+        image: "images/sung.png",
         title: "Full-bodied, Rich, Pleasantly Sweet",
         description:
             "Intense and complex bouquet, featuring hints of peach, melon, and blackberries",
