@@ -69,12 +69,12 @@ const Hero = () => {
       <section id="hero" className="noisy">
         <h1 className="title">WINE</h1>
         <img
-          src="/images/cork-left-scaled.png"
+          src="images/cork-left-scaled.png"
           alt="left-leaf"
           className="left-leaf"
         />
         <img
-          src="/images/cork-right-scaled.png"
+          src="images/cork-right-scaled.png"
           alt="right-leaf"
           className="right-leaf"
         />
@@ -98,7 +98,7 @@ const Hero = () => {
       </section>
       <div className="video absolute inset-0">
         <video
-          src="/videos/output22.mp4"
+          src="videos/output22.mp4"
           ref={videoRef}
           muted
           playsInline

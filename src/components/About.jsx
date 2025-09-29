@@ -82,13 +82,13 @@ const About = () => {
       <div className="top-grid">
         <div className="md:col-span-3">
           <div className="noisy">
-            <img src="/images/enoabt1.jpg" alt="grid-img-1" />
+            <img src="images/enoabt1.jpg" alt="grid-img-1" />
           </div>
         </div>
         <div className="md:col-span-6">
           <div className="noisy">
             <img
-              src="/images/enoabt2.jpg"
+              src="images/enoabt2.jpg"
               className="object-cover"
               alt="grid-img-1"
             />
@@ -96,20 +96,20 @@ const About = () => {
         </div>
         <div className="md:col-span-3">
           <div className="noisy">
-            <img src="/images/enoabt3.jpg" alt="grid-img-1" />
+            <img src="images/enoabt3.jpg" alt="grid-img-1" />
           </div>
         </div>
       </div>
       <div className="bottom-grid">
         <div className="md:col-span-8">
           <div className="noisy">
-            <img src="/images/enoabt4.jpg" alt="grid-img-1" />
+            <img src="images/enoabt4.jpg" alt="grid-img-1" />
           </div>
         </div>
         <div className="md:col-span-4">
           <div className="noisy">
             <img
-              src="/images/enoabt5.jpg"
+              src="images/enoabt5.jpg"
               className="object-cover"
               alt="grid-img-1"
             />
