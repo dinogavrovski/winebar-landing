@@ -89,12 +89,12 @@ const openingHours = [
 const socials = [
     {
         name: "Instagram",
-        icon: "/images/insta.png",
+        icon: "images/insta.png",
         url: "https://www.instagram.com/oeno_wine_bar/",
     },
     {
         name: "Facebook",
-        icon: "/images/fb.png",
+        icon: "images/fb.png",
         url: "https://www.facebook.com/people/Oeno-Wine-Bar-Deli/100063455534104/#",
     },
 ];
